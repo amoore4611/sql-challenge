@@ -6,6 +6,7 @@ In the first part, each csv file was modleed using quick database design (QBD). 
 
 Part 2: Data Engineering 
 In this section, the table schemas were created in Postgresql. For each table, the datatypes and keys that were assinged in the modeling stages were added to the the schemas. CSV files were loaded in the following order to ensure foreign keys would load corretly. 
+
     1. titles
     
     2. employees
@@ -20,6 +21,7 @@ In this section, the table schemas were created in Postgresql. For each table, t
 
 Part 3: Data Analysis
 In this section, the following questions were asked, and each was analyzed using the tables created in Part 2.
+
     1. List the following details of each employee: employee number, last name, first name, sex, and salary.
     
     2. List first name, last name, and hire date for employees who were hired in 1986.
